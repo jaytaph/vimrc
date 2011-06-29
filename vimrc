@@ -2,7 +2,6 @@
 
 " Try to set a decent vim functionality. Or at least, the onces I prefer.
 
-
 " Syntax highlighting please
 syntax on
 
@@ -15,3 +14,17 @@ syntax on
 :imap <C-l> <Esc>:tabnext<CR>i
 :nmap <C-t> :tabnew<CR>
 :imap <C-t> <Esc>:tabnew<CR>
+
+" Set additional screen stuff
+set cmdheight=2
+set ruler
+set showcmd
+set laststatus=2
+
+" Ignore case
+set ignorecase
+
+" Display tabs and trailing spaces
+set list listchars=tab:»·,trail:·
+set list
+
