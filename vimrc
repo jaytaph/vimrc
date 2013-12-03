@@ -28,3 +28,14 @@ set ignorecase
 set list listchars=tab:»·,trail:·
 set list
 
+set encoding=utf-8
+scriptencoding utf-8
+
+" Automatically detect saffire scripts
+autocmd BufRead,BufNewFile *.sf set filetype=saffire
+
+" Hardcore!
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
